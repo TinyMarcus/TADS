@@ -1,0 +1,62 @@
+\hypertarget{prog_8c}{}\section{Документация doxygen/prog.c File Reference}
+\label{prog_8c}\index{Документация doxygen/prog.\+c@{Документация doxygen/prog.\+c}}
+
+
+Multiplication of two long numbers that do not fit into the computer\textquotesingle{}s bitmap.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{prog_8c_aa90cac659d18e8ef6294c7ae337f6b58}\label{prog_8c_aa90cac659d18e8ef6294c7ae337f6b58}} 
+\#define {\bfseries S\+U\+C\+C\+E\+SS}~0
+\item 
+\mbox{\Hypertarget{prog_8c_a288116f92845fddefeb044f5b84bc889}\label{prog_8c_a288116f92845fddefeb044f5b84bc889}} 
+\#define {\bfseries I\+N\+P\+U\+T\+\_\+\+E\+R\+R\+OR}~-\/1
+\item 
+\mbox{\Hypertarget{prog_8c_a8340c12e8e746b1d2b538f32da56d138}\label{prog_8c_a8340c12e8e746b1d2b538f32da56d138}} 
+\#define {\bfseries O\+V\+E\+R\+F\+L\+O\+W\+\_\+\+E\+R\+R\+OR}~-\/2
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{prog_8c_a6c2eab80c21a8e2f72bf400298b43248}\label{prog_8c_a6c2eab80c21a8e2f72bf400298b43248}} 
+int {\bfseries input} (char $\ast$const sign\+\_\+result, short int $\ast$const num, short int $\ast$const dad, short int $\ast$const dbd, int $\ast$const expon)
+\item 
+\mbox{\Hypertarget{prog_8c_a77ac4de72a0e4bda84158e09e4b26da0}\label{prog_8c_a77ac4de72a0e4bda84158e09e4b26da0}} 
+int {\bfseries mult} (const short int $\ast$num\+\_\+1, const short int $\ast$num\+\_\+2, const short int l\+\_\+num\+\_\+1, const short int l\+\_\+num\+\_\+2, short int $\ast$const res)
+\item 
+\mbox{\Hypertarget{prog_8c_a092102d0e713858e413f7119b3dc0a29}\label{prog_8c_a092102d0e713858e413f7119b3dc0a29}} 
+int {\bfseries output} (const char sign\+\_\+result, short int $\ast$res, int expon)
+\item 
+int \mbox{\hyperlink{prog_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em main function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Multiplication of two long numbers that do not fit into the computer\textquotesingle{}s bitmap. 
+
+\begin{DoxyAuthor}{Author}
+Ilyasov Idris I\+U7-\/33B 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+September 2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{prog_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{prog_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{prog.\+c@{prog.\+c}!main@{main}}
+\index{main@{main}!prog.\+c@{prog.\+c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+main function 
+
+\begin{DoxyReturn}{Returns}
+S\+U\+C\+C\+E\+SS if all is OK, O\+V\+E\+R\+F\+L\+O\+W\+\_\+\+E\+R\+R\+OR if overflow, I\+N\+P\+U\+T\+\_\+\+E\+R\+R\+OR if incorrect input. 
+\end{DoxyReturn}

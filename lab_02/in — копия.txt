@@ -1,0 +1,40 @@
+Pushkin|Captain's Daughter|Nigma|160|artistic|novel|
+Pushkin|Dubrovsky|Clever|240|artistic|novel|
+Pushkin|Poltava|Clever|363|artistic|novel|
+Lermontov|Nowadays Hero|Nigma|630|artistic|novel|
+Folk|Kurochka Ryaba|AST|25|children|fairy tales|
+Gogol|Death souls|Drofa|780|artistic|novel|
+Gorkiy|On bottom|Exmo|450|artistic|play|
+Chekhov|Cherry Orchard|Drofa|500|artistic|play|
+Merezhkovskiy|Pavel I|Nigma|250|artistic|play|
+Erdman|Suicide|Exmo|250|artistic|play|
+German|Powder Metallurgy|Drofa|336|technical|metallurgy|foreign|2009|
+Lishvits|Casting Technology|Exmo|272|technical|metallurgy|domestic|2017|
+Alberts|Basics of molecular biology|Drofa|768|technical|biology|foreign|2018|
+Rezanov|General biology|Nigma|256|technical|biology|domestic|2012|
+Astapov|Human nervous system|AST|170|technical|biology|domestic|2004|
+Yazev|Lections about Sun|AST|256|technical|physics|domestic|2012|
+Randall|Universe|AST|600|technical|physics|foreign|2009|
+Gurevich|Atomic physics|Fizmatlit|250|technical|physics|domestic|2009|
+Alekseev|Metalurgy of Ural|AST|304|technical|metallurgy|domestic|1987|
+Levitan|Space|AST|360|technical|physics|domestic|2004|
+Egorov|Make space!|AST|230|technical|physics|domestic|2007|
+Demenok|Just enthropy|Strata|160|technical|physics|domestic|2010|
+Yakubovich|MiG-29|Strata|200|technical|aviation|domestic|2011|
+Heily|On the verge of disaster|AST|250|technical|aviation|foreign|2010|
+Heily|Airport|AST|200|technical|aviation|foreign|1968|
+Titov|Aviation and Space|Strata|200|technical|aviation|domestic|1963|
+Viktorin|Around Antarctica|Paulsen|100|technical|geography|domestic|2005|
+Sergeev|Russian America|Russkiy Mir|250|technical|geography|domestic|2007|
+Rerikh|Heart of Asia|Veche|400|technical|geography|domestic|2007|
+Bolton|Everest|AST|300|technical|geography|foreign|2005|
+Barto|Our Tanya|Drofa|10|children|poems|
+Chukovskiy|Aibolit|Drofa|50|children|fairy tales|
+Pushkin|Tsar Sultan|Drofa|100|children|fairy tales|
+Griboedov|Gore ot uma|Drofa|250|artistic|play|
+Tolstoi|War and Piece|Drofa|1500|artistic|novel|
+Bulgakov|Master and Margarita|Drofa|800|artistic|novel|
+Bulgakov|Dog's heart|Nigma|600|artistic|novel|
+Dostoevsky|Crime and Punishment|Drofa|800|artistic|novel|
+Pushkin|Pikovaya Dama|Drofa|300|artistic|novel|
+Chekhov|Tchaika|Drofa|500|artistic|play|

@@ -93,7 +93,7 @@ int main(void)
 				else
 				{
 					get_graph(matrix, cnt);
-					system("/bin/bash /mnt/c/Users/ilyas/Desktop/ТиСД/ЛР7/file.sh");
+					system("/usr/bin/zsh /home/ilyas/tisd-labs/lab_07/file.sh");
 				}
 
 				break;
@@ -209,7 +209,7 @@ int main(void)
 						else
 							printf("%d\n", res[i] + 1);
 					get_graph_prim(cnt, matrix, res);
-					system("/bin/bash /mnt/c/Users/ilyas/Desktop/ТиСД/ЛР7/file_prim.sh");
+					system("/usr/bin/zsh /home/ilyas/tisd-labs/lab_07/file_prim.sh");
 					free(res);
 				}
 

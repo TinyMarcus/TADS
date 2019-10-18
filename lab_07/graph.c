@@ -3,17 +3,17 @@
 
 int **allocate_matrix(int n, int m)
 {
-	int **matrix = malloc(n*sizeof(int*) + n*m*sizeof(int));
+    int **matrix = malloc(n*sizeof(int*) + n*m*sizeof(int));
 
-	if (!matrix)
-	{
-		return NULL;
-	}
+    if (!matrix)
+    {
+        return NULL;
+    }
 
-	for (int i = 0; i < n; i++)
-	{
-		matrix[i] = (int*)((char*)matrix + n*sizeof(int*) + i*m*sizeof(int));
-	}
+    for (int i = 0; i < n; i++)
+    {
+        matrix[i] = (int*)((char*)matrix + n*sizeof(int*) + i*m*sizeof(int));
+    }
 
     return matrix;
 }
@@ -233,42 +233,42 @@ int first_zero(int *arr, int n)
 
 int *prim(int **matrix, int *result, int cnt, int v0)
 {
-	for (int i = 0; i < cnt; i++)
+    for (int i = 0; i < cnt; i++)
     {
-		for (int j = 0; j < cnt; j++)
+	    for (int j = 0; j < cnt; j++)
         {
-			if (matrix[i][j] == 0)
+            if (matrix[i][j] == 0)
             {
-				matrix[i][j] = INFINITY;
+                matrix[i][j] = INFINITY;
             }
         }
     }
-	int *already_used = malloc(cnt* sizeof(int));
+    int *already_used = malloc(cnt* sizeof(int));
 
     for (int i = 0; i < cnt; i++)
     {
-		already_used[i] = 0;
+        already_used[i] = 0;
     }
-	already_used[v0] = 1;
+    already_used[v0] = 1;
     result[0] = v0;
 
     for (int i = 1; i < cnt; i++)
-	{
-		int min = matrix[v0][first_zero(already_used, cnt)];
-		result[i] = first_zero(already_used, cnt);
+    {
+        int min = matrix[v0][first_zero(already_used, cnt)];
+        result[i] = first_zero(already_used, cnt);
 
-		for (int j = 0; j < cnt; j++)
+        for (int j = 0; j < cnt; j++)
         {
-			if (matrix[v0][j] < min && already_used[j] == 0)
-			{
-				min = matrix[v0][j];
-				result[i] = j;
-			}
+            if (matrix[v0][j] < min && already_used[j] == 0)
+            {
+                min = matrix[v0][j];
+                result[i] = j;
+            }
         }
 
-		v0 = result[i];
-		already_used[v0] = 1;
-	}
+        v0 = result[i];
+        already_used[v0] = 1;
+    }
 
-	return result;
+    return result;
 }
